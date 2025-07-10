@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
-
-
 from itertools import combinations
 
 def jokbo(a, b):
@@ -32,16 +26,3 @@ for i, j in combinations(cards, 2):
 
         
 print(f"{win / total:.3f}")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
