@@ -45,5 +45,5 @@ for i in range(5):
                     
         if bingo() >= 3:
             print(count)
-            #exit() #주피터에서 안 먹음
-            sys.exit()
+            exit() #주피터에서 안 먹음
+            #sys.exit()
