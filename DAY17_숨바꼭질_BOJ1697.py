@@ -21,7 +21,6 @@ def bfs(n, k):
                 time[next_pos] = time[current] + 1
                 queue.append(next_pos)
 
-# 입력 받기
 n, k = map(int, input().split())
 print(bfs(n, k))
 
